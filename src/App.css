@@ -44,3 +44,28 @@
     transform: rotate(360deg);
   }
 }
+
+/*******************************************************************************************************/
+
+.App-Nav {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.App-Nav a:link {
+  color: white;
+  margin: 10px;
+}
+
+.App-Nav a:visited {
+  color: white;
+}
+
+.App-Nav a:hover {
+  color: hotpink;
+}
+
+.App-Nav a:active {
+  color: orange;
+}

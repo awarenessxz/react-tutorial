@@ -27,9 +27,10 @@ import { CounterOne, CounterTwo, CounterThree, ComponentA3 } from "./components/
 import { DataFetchingOne, DataFetchingTwo } from "./components/DataFetchingUseReducer"; // eslint-disable-line
 import { ParentComponentCallBack, ParentComponentCallBackWithMemo } from "./components/useCallBack"; // eslint-disable-line
 import MemoCounter from "./components/UseMemo"; //eslint-disable-line
-import { FocusInputuseRef, ClassTimer, HookTimer } from "./components/useRef"; //eslint-disable-line
+import { FocusInputuseRef, ClassTimer, HookTimer } from "./components/UseRef"; //eslint-disable-line
 import { DocTitleOne, DocTitleTwo, DocTitleThree, DocTitleFour, CounterWithoutHook, CounterWithHook, UserFormWithoutHook, UserFormWithHook } from "./components/useCustomHooks"; // eslint-disable-line
-import './App.css';
+import Routing from "./components/Routing"; //eslint-disable-line
+import "./App.css";
 
 /*
  * Scenerio:                          UseState           vs    UseReducer
@@ -43,6 +44,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      { /* ======================================== Routing (Switch, Router, Route, Link) */ }
+      <Routing />
+      <hr className="big-seperator" />
       { /* ======================================== custom Hook (Alternative to HOC & Render Props) */ }
       <DocTitleOne />   { /* exact same code */ }
       <DocTitleTwo />   { /* exact same code */ }

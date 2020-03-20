@@ -66,3 +66,38 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## References
+
+- Sublime Setup for JSX
+	- https://medium.com/@adrianmcli/setting-up-sublime-text-3-for-reactjs-3bf6baceb73a
+	- https://stackoverflow.com/questions/30027755/autocomplete-html-tags-in-jsx-sublime-text
+- React-HotLoader
+	- https://blog.logrocket.com/setup-react-hotloader-in-10-minutes-3175dfdbf38a/
+- React-Alerts
+	- https://medium.com/@MinimalGhost/slick-easy-integration-with-react-alert-d79e08e93a54
+- React-Redux
+	- https://www.youtube.com/watch?v=9boMnm5X9ak&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK
+	- https://blog.logrocket.com/react-redux-connect-when-and-how-to-use-it-f2a1edab2013/
+	- https://daveceddia.com/redux-tutorial/
+	- https://react-redux.js.org/introduction/quick-start
+- Routing
+	- https://itnext.io/react-router-dom-v4-tutorial-with-examples-d9f6413066e7
+	- https://stackoverflow.com/questions/43484302/what-does-it-mean-rest-in-react-jsx
+	- https://dev.to/danhjoo7/using-a-switch-component-in-react-router-d2k
+	- https://www.youtube.com/watch?v=7KPaOHBLhbY
+	- https://www.youtube.com/watch?v=Gvhngg_z71A
+- PropType
+	- https://www.youtube.com/watch?v=XLthy2j_CCQ
+- DefaultProps
+	- https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d
+- WebSocket (STOMP / SockJS)
+	- https://www.toptal.com/java/stomp-spring-boot-websocket
+	- https://spring.io/guides/gs/messaging-stomp-websocket/
+- Alt.js
+	- http://alt.js.org/guide/
+	- https://stackoverflow.com/questions/57795215/different-ways-to-call-dispatch-in-alt-js
+	- http://alt.js.org/docs/actions/#actionconstant
+- Redux
+	- https://daveceddia.com/access-redux-store-outside-react/
