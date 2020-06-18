@@ -2,7 +2,8 @@ import React from "react";
 import { HashRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import App from "./App";
-import ReduxApp from "./pages/ReduxApp"
+import ReduxApp from "./containers/ReduxApp";
+import Basic from "./containers/Basic";
 
 class AppRoute extends React.Component {
 	render() {
@@ -10,13 +11,15 @@ class AppRoute extends React.Component {
 			<Router>
 				<div>
 					<nav class="App-Nav">
-						<Link to="/">App</Link>
+						<Link to="/">Home</Link>
+						<Link to="/Basic">Basic</Link>
 						<Link to="/Redux">Redux</Link>  
 					</nav>
 
 
 					<Switch>
 						<Route exact path="/" component={App} />
+						<Route path="/Basic" component={Basic} />
 						<Route path="/Redux" component={ReduxApp} />
 					</Switch>
 				</div>
